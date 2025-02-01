@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_ghv@kcwx9q8ds%x%gkb!t1fnm1xr8xoh*@u%ioel_dtia#t1q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost']
 
 
 # Application definition
@@ -80,8 +80,9 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React app, for example
-    "https://yourfrontend.com",  # Your deployed frontend
+    "http://127.0.0.1:8000",
+    "http://localhost:8000",
+
 ]
 
 ROOT_URLCONF = 'career_path.urls'
