@@ -21,5 +21,4 @@ const Roadmap: React.FC = () => {
     </div>
   );
 };
-
 export default Roadmap;

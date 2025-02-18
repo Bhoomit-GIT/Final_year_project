@@ -1,6 +1,6 @@
 # recommendations/filtering.py
 from surprise import SVD, Dataset, Reader
-import pandas as pd 
+import pandas as pd
 
 def collaborative_filtering(user_data):
     # Example user-item interaction data
